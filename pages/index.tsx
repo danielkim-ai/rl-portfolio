@@ -5,7 +5,7 @@ import ThemeToggle from '../components/ThemeToggle';
 
 export default function Home() {
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="max-w-3xl mx-auto p-6 bg-white text-gray-800 dark:bg-black dark:text-gray-100 min-h-screen transition-colors duration-300">
       <header className="mb-10 flex items-center justify-between">
         <div>
           <h1 className="text-4xl font-bold">Seok (Daniel) Kim</h1>
