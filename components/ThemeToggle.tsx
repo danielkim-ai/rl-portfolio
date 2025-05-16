@@ -16,14 +16,14 @@ export default function ThemeToggle() {
       setIsDark(true);
     } else {
       html.classList.remove('dark');
+      setIsDark(false);
     }
   }, []);
 
   const toggleTheme = () => {
     const html = document.documentElement;
-    const isCurrentlyDark = html.classList.contains('dark');
-
-    if (isCurrentlyDark) {
+    
+    if (html.classList.contains('dark')) {
       html.classList.remove('dark');
       localStorage.setItem('theme', 'light');
       setIsDark(false);
