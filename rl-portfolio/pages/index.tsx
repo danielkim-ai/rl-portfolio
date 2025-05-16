@@ -1,9 +1,40 @@
-  export default function Home() {
-    return (
-      <main className="max-w-4xl mx-auto p-6">
-        <h1 className="text-4xl font-bold">Your Name</h1>
-        <p className="text-gray-600">Reinforcement Learning | CS & Applied Statistics</p>
-      </main>
-    );
-  }
-  
+import Link from 'next/link';
+
+export default function Home() {
+  return (
+    <div className="max-w-3xl mx-auto p-6">
+      <header className="mb-10">
+        <h1 className="text-4xl font-bold">Daniel Kim</h1>
+        <p className="text-lg text-gray-600">Reinforcement Learning | Computer Science & Applied Statistics</p>
+      </header>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold">About Me</h2>
+        <p className="mt-2">
+          I'm currently pursuing a double major in Computer Science and Applied Statistics, with a focus on
+          Reinforcement Learning. I'm exploring foundational concepts and building real-world projects to expand my skills.
+        </p>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold">Projects</h2>
+        <ul className="list-disc list-inside mt-2">
+          <li><strong>Coming soon</strong>: Training SAC on HalfCheetah-v4 using REINFORCE-style gradients</li>
+          <li><strong>Coming soon</strong>: Offline RL with CQL on random vs expert datasets</li>
+          <li><strong>Coming soon</strong>: RL Blog - Policy Gradients, Value Function Approximation</li>
+        </ul>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold">Resume</h2>
+        <a href="/resume.pdf" className="text-blue-600 underline">Download my resume (PDF)</a>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold">Contact</h2>
+        <p className="mt-2">Email: youremail@example.com</p>
+        <p>GitHub: <a href="https://github.com/danielkim-ai" className="text-blue-600">github.com/danielkim-ai</a></p>
+      </section>
+    </div>
+  );
+}
