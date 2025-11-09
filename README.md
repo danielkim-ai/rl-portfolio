@@ -30,8 +30,13 @@ Results include:
 - **Q-value trajectories**
 - **Entropy coefficient sensitivity plots**
 
-<img src="results/eval_return_plot.png" width="450"/>
-<img src="results/q_value_curve.png" width="450"/>
+<img src="results/cartpole_dqn_eval_return_comparison.png" width="450"/>
+<img src="results/cartpole_dqn_qvalues_comparison.png" width="450"/>
+<img src="results/cartpole_exploration_sensitivity" width="450"/>
+<img src="results/halfcheetah_reinforce_reparametrize_eval.png" width="450"/>
+<img src="results/hopper_singleq_doubleq_clippeddoubleq_eval.png" width="450"/>
+<img src="results/hopper_singleq_doubleq_clippeddoubleq_qvalues.png" width="450"/>
+<img src="results/humanoid_singleq_doubleq_clippeddoubleq_eval.png" width="450"/>
 
 ---
 
